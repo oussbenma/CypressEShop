@@ -14,5 +14,5 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CLICKANDCOLLECT_324914 }}'
-          expires: 1d
+          channelId: live
           projectId: clickandcollect-324914
