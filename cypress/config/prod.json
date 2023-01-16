@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://clickandcollect-324914.web.app/home",
+  
+    "env": {
+        "enVar": "PROD",
+        "mobileViewportWidthBreakpoint": 414
+
+    }
+
+}

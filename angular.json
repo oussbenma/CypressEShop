@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/i-run-v15",
+            "outputPath": "dist/click-and-collect",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -110,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f10364cb-a2ad-4b22-9f22-66798db20afc"
   }
 }

@@ -1,0 +1,20 @@
+version: '3'
+services:
+
+  e2e-chrome-desktop-prod:
+    image: dsdtest/cy
+    command: --spec 'cypress/e2e/test_suites/*' --env configFile=qa,viewPort=macbook-11 --browser chrome
+    environment:
+      - configFile=prod,viewPort=macbook-11
+    volumes:
+      - ./results/chrome/desktop/videos:/my-cypress-project/cypress/videos
+      - ./results/chrome/desktop/reports:/my-cypress-project/cypress/reports
+
+  e2e-chrome-mobile-prod:
+    image: dsdtest/cy
+    command: --spec 'cypress/e2e/test_suites/*' --env configFile=qa,viewPort=samsung-s10 --browser chrome
+    environment:
+      - configFile=prod,viewPort=samsung-s10
+    volumes:
+      - ./results/chrome/mobile/videos:/my-cypress-project/cypress/videos
+      - ./results/chrome/mobile/reports:/my-cypress-project/cypress/reports
