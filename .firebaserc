@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "prod": "clickandcollect-324914",
+    "default": "clickandcollect-324914"
+  },
+  "targets": {},
+  "etags": {}
+}
