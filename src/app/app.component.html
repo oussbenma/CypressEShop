@@ -1,0 +1,9 @@
+<app-intro *ngIf="showIntro" (showIntro)="onShowIntro($event)"></app-intro>
+<div class="shopping" *ngIf="!showIntro">
+  <app-header></app-header>
+  <mat-divider></mat-divider>
+</div>
+<div *ngIf="!showIntro" [ngStyle]="{marginTop: '80px'}">
+  <router-outlet></router-outlet>
+</div>
+
