@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://www2.xxxxxx.com/de-de",
+    "mobileViewportWidthBreakpoint": 414,
+    "env": {
+        "enVar": "QA",
+        "mobileViewportWidthBreakpoint": 414
+    
+    }
+}
